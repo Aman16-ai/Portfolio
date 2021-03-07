@@ -75,4 +75,10 @@ img{
     background-color:#d5c455;
     
 }
+#copyrightpara{
+    display: block;
+    margin-top: 150px;
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
 
