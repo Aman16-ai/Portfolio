@@ -28,7 +28,10 @@ body,html{
     background-color: #d5c455;
     
 }
-img{
+#imgOne {
+    display: none;
+}
+#imgTwo{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -87,4 +90,84 @@ img{
     color: rgba(0, 0, 0, 0.4) ;
    
     text-align: center;
+}
+.navbaritems , li , a{
+    text-decoration: none;
+    color: #d5c455;
+}
+
+@media only screen and (max-width: 600px) {
+    #imgTwo{
+        display: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 105px;
+        height:20vh;
+        
+    
+    }
+    #imgOne {
+        display: block;
+        margin: 10px 10px;
+        height: 365px;
+    }
+    #subContainerTwo{
+        width: 50%;
+        height: 100%;
+        background-color: #d5c455;
+        display: none;
+        
+    }
+    #subContainerOne{
+        width: 100%;
+        height: 100%;
+        background-color: #ffff;
+    }
+    #topsentence{
+        color: #d5c455;
+        margin-top: 3rem;
+        text-align: center;
+        font-family: 'RocknRoll One', sans-serif;
+    }
+    #mainHeading{
+        font-family: 'Pacifico', cursive;
+        font-size: 2.3rem;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: center;
+    }
+    #aboutbtn{
+        
+        width: 35vw;
+        height: 3rem;
+        border: none;
+        background-color: #d5c455;
+        color: white;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        font-weight: bold;
+        font-size: small;
+        margin: 1rem 7rem;
+    }
+    #aboutbtn:hover{
+        color: #d5c455;
+        background-color: white;
+        border:2px solid #d5c455;
+    }
+    #hirebtn{
+        width: 100%;
+        height: 3rem;
+        border: none;
+        background-color:white;
+        color:#d5c455;
+        border: 2px solid #d5c455;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        font-weight: bold;
+        font-size: small;
+        /* margin-left: rem; */
+    }
+    #hirebtn:hover{
+        color: white;
+        background-color:#d5c455;
+        
+    }
 }
